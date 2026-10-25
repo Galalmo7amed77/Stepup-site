@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StepUp | شباشب وصنادل رجالي</title>
+  <meta name="description" content="StepUp: شباشب وصنادل رجالي بتصميم بسيط وراحة يومية. اختر مقاسك واطلب مباشرة عبر واتساب.">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="StepUp">
+  <meta property="og:title" content="StepUp | شباشب وصنادل رجالي">
+  <meta property="og:description" content="شباشب وصنادل رجالي بتصميم بسيط وراحة يومية.">
+  <meta property="og:locale" content="ar_EG">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+  <div class="announcement">اكتشف مجموعتنا الجديدة</div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="StepUp — الرئيسية">StepUp</a>
+
+      <nav class="site-nav" id="site-nav" aria-label="القائمة الرئيسية">
+        <a href="#top">الرئيسية</a>
+        <a href="#products">المنتجات</a>
+        <a href="#story">من نحن</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="icon-btn" id="search-trigger" href="#products" aria-label="بحث في المنتجات">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>
+        </a>
+        <button class="icon-btn cart-btn" id="cart-open" type="button" aria-haspopup="dialog" aria-label="سلة التسوق">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+          <span class="cart-count" id="cart-count" aria-hidden="true">0</span>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="فتح القائمة">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- القسم الرئيسي -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">شباشب وصنادل رجالي</p>
+          <h1 class="hero-title" id="hero-title">خطوتك الجاية تبدأ من هنا.</h1>
+          <p class="hero-text">تصميم بسيط. راحة يومية. ستايل يناسبك.</p>
+          <a class="btn btn-primary" href="#products">اكتشف المجموعة</a>
+        </div>
+        <div class="hero-media">
+          <img src="images/hero.svg" alt="صورة توضيحية لشبشب رجالي على خلفية بيضاء" width="800" height="1000" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- الكتالوج -->
+    <section class="section" id="products" aria-labelledby="products-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="products-title">اختار ستايلك</h2>
+          <p>اكتشف موديلات تناسب يومك.</p>
+        </header>
+
+        <div class="catalog-tools">
+          <label class="search-field">
+            <span class="visually-hidden">ابحث باسم المنتج</span>
+            <input type="search" id="search-input" placeholder="ابحث باسم المنتج" autocomplete="off">
+          </label>
+          <div class="chips" id="category-chips" role="group" aria-label="تصفية حسب الفئة"></div>
+        </div>
+
+        <p class="demo-note" id="demo-note" hidden>
+          المنتجات المعروضة الآن نماذج تجريبية للعرض فقط، وتُستبدل ببيانات المنتجات الحقيقية قبل الإطلاق.
+        </p>
+
+        <div class="product-grid" id="product-grid"></div>
+        <p class="empty-state" id="empty-state" hidden>لا توجد منتجات تطابق بحثك.</p>
+      </div>
+    </section>
+
+    <!-- من نحن -->
+    <section class="section story" id="story" aria-labelledby="story-title">
+      <div class="container narrow reveal">
+        <h2 id="story-title">البساطة في كل خطوة</h2>
+        <p>StepUp شباشب وصنادل رجالي بتصميم بسيط يناسب الاستخدام اليومي.</p>
+        <p>كل موديل معروض هنا بمقاساته المتاحة وسعره الواضح، بدون تعقيد، لتختار بثقة وتطلب بسهولة.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- التذييل وتواصل معنا -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <a class="wordmark" href="#top">StepUp</a>
+        <p>شباشب وصنادل رجالي بتصميم بسيط. الطلب يتم مباشرة عبر واتساب.</p>
+      </div>
+
+      <nav aria-label="روابط التذييل">
+        <h3>تصفح</h3>
+        <ul>
+          <li><a href="#top">الرئيسية</a></li>
+          <li><a href="#products">المنتجات</a></li>
+          <li><a href="#story">من نحن</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h3>تواصل معنا</h3>
+        <a class="btn btn-outline" href="https://wa.me/201061160278" target="_blank" rel="noopener">واتساب: 01061160278</a>
+        <p>الطلبات تُرسل بواسطتك عبر واتساب، ولا يتم حفظ بياناتك على خادم أو معالجة أي دفع إلكتروني من الموقع.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> StepUp. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <!-- سلة التسوق (درج جانبي) -->
+  <dialog class="drawer" id="cart-drawer" aria-labelledby="cart-title">
+    <div class="drawer-inner">
+      <header class="drawer-head">
+        <h2 id="cart-title">سلة التسوق</h2>
+        <button class="icon-btn" id="cart-close" type="button" aria-label="إغلاق السلة">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </header>
+      <div class="drawer-body" id="cart-body"></div>
+      <footer class="drawer-foot" id="cart-foot" hidden>
+        <div class="totals">
+          <span>الإجمالي الفرعي</span>
+          <strong id="cart-subtotal">٠</strong>
+        </div>
+        <p class="shipping-note">يتم تأكيد تكلفة الشحن عبر واتساب.</p>
+        <p class="hint">الإجمالي أعلاه لا يشمل أي تكلفة شحن لم تُؤكَّد بعد.</p>
+        <button class="btn btn-primary btn-block" id="checkout-open" type="button">متابعة لإتمام الطلب</button>
+        <button class="btn btn-link" id="continue-shopping" type="button">متابعة التسوق</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <!-- تفاصيل المنتج -->
+  <dialog class="modal" id="product-dialog" aria-labelledby="pd-name">
+    <div class="modal-inner">
+      <header class="modal-head">
+        <span class="modal-label">تفاصيل المنتج</span>
+        <button class="icon-btn" type="button" data-close-dialog aria-label="إغلاق">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </header>
+      <div class="modal-scroll">
+        <div class="pd-grid">
+          <div class="pd-media"><img id="pd-img" src="images/placeholder.svg" alt="" width="800" height="1000"></div>
+          <div class="pd-info">
+            <p class="pd-cat" id="pd-cat"></p>
+            <h2 id="pd-name"></h2>
+            <p class="pd-price" id="pd-price"></p>
+            <p class="pd-desc" id="pd-desc"></p>
+            <p class="badge-inline" id="pd-demo" hidden>نموذج تجريبي — سيُستبدل قبل الإطلاق</p>
+
+            <fieldset class="sizes">
+              <legend>اختر المقاس <span class="req" aria-hidden="true">*</span></legend>
+              <div class="size-grid" id="pd-sizes"></div>
+            </fieldset>
+            <p class="error" id="pd-error" role="alert"></p>
+
+            <div class="qty">
+              <span id="qty-label">الكمية</span>
+              <div class="stepper" role="group" aria-labelledby="qty-label">
+                <button type="button" id="qty-plus" aria-label="زيادة الكمية">+</button>
+                <output id="qty-value" aria-live="polite">1</output>
+                <button type="button" id="qty-minus" aria-label="تقليل الكمية">−</button>
+              </div>
+            </div>
+
+            <button class="btn btn-primary btn-block" id="pd-add" type="button">أضف إلى السلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- بيانات الطلب -->
+  <dialog class="modal" id="checkout-dialog" aria-labelledby="checkout-title">
+    <div class="modal-inner">
+      <header class="modal-head">
+        <h2 id="checkout-title">بيانات التوصيل</h2>
+        <button class="icon-btn" type="button" data-close-dialog aria-label="إغلاق">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </header>
+      <div class="modal-scroll">
+        <form id="checkout-form" class="checkout-form" novalidate>
+          <div class="field">
+            <label for="f-name">الاسم بالكامل <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+            <p class="error" id="e-name"></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-phone">رقم الهاتف <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="01XXXXXXXXX" required aria-describedby="h-phone e-phone">
+              <p class="hint" id="h-phone">رقم موبايل مصري يبدأ بـ 01</p>
+              <p class="error" id="e-phone"></p>
+            </div>
+            <div class="field">
+              <label for="f-altPhone">رقم واتساب بديل <span class="hint">(اختياري)</span></label>
+              <input id="f-altPhone" name="altPhone" type="tel" inputmode="tel" placeholder="01XXXXXXXXX" aria-describedby="e-altPhone">
+              <p class="error" id="e-altPhone"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-governorate">المحافظة <span class="req" aria-hidden="true">*</span></label>
+            <select id="f-governorate" name="governorate" required aria-describedby="e-governorate"></select>
+            <p class="error" id="e-governorate"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-city">المدينة أو المركز <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-city" name="city" type="text" autocomplete="address-level2" required aria-describedby="e-city">
+            <p class="error" id="e-city"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-address">العنوان بالتفصيل <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="f-address" name="address" rows="3" autocomplete="street-address" required aria-describedby="e-address"></textarea>
+            <p class="error" id="e-address"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-landmark">علامة مميزة للعنوان <span class="hint">(اختياري)</span></label>
+            <input id="f-landmark" name="landmark" type="text">
+          </div>
+
+          <div class="field">
+            <label for="f-notes">ملاحظات الطلب <span class="hint">(اختياري)</span></label>
+            <textarea id="f-notes" name="notes" rows="2" maxlength="500"></textarea>
+          </div>
+
+          <p class="notice">سيتم فتح واتساب برسالة جاهزة. راجع تفاصيل طلبك واضغط إرسال، ثم انتظر تأكيد المتجر.</p>
+
+          <button class="btn btn-primary btn-block" type="submit">إتمام الطلب عبر واتساب</button>
+
+          <div class="notice" id="wa-result" hidden tabindex="-1">
+            <p>إذا لم يُفتح واتساب تلقائياً، اضغط الزر التالي.</p>
+            <a class="btn btn-outline btn-block" id="wa-link" href="https://wa.me/201061160278" target="_blank" rel="noopener">افتح واتساب مرة أخرى</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="صورة توضيحية لصندل بسيط نموذج أ">
+<rect width="800" height="1000" fill="#F7F7F7"/>
+<path d="M170 600 Q170 548 235 544 L560 536 Q645 536 645 604 L645 646 Q645 690 600 690 L215 690 Q170 690 170 646 Z" fill="#D9D9D9"/>
+<path d="M170 690 L645 690 L645 712 Q645 726 630 726 L185 726 Q170 726 170 712 Z" fill="#BDBDBD"/>
+<text x="400" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#777777">صورة توضيحية — استبدلها بصورة منتجك</text>
+</svg>
